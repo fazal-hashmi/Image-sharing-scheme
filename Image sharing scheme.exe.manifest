@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Image sharing scheme.exe" version="1.0.0.0" publicKeyToken="ca209e4615f8515c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Image sharing scheme" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Image sharing scheme.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Image sharing scheme.exe" size="18912">
+      <assemblyIdentity name="Image sharing scheme" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ubH98kc1wS2VyUY2fcxTHTA+Dt/By1qgT4p2MLmnbUU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.dll" size="353280">
+      <assemblyIdentity name="MetroFramework" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wsEtMbSETineMVlPyWMqNypVNjHeCgoEyK+RZo43z0k=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Design.dll" size="16896">
+      <assemblyIdentity name="MetroFramework.Design" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CkqWCC4ldn5GlwM2SbFsdqZS4SB1eizsq4CSrQ1xa2U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MetroFramework.Fonts.dll" size="672256">
+      <assemblyIdentity name="MetroFramework.Fonts" version="1.4.0.0" publicKeyToken="5F91A84759BF584A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yEOGmqylE1wtRylphfNcccqK9EMSiNBNSBxORsyT7iY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Image sharing scheme.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FihlZtVNgcNyH37Pf0Jtll3jZOm+L55ijXNjtoS2/mo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DELL-INSPIRON53\fazal" issuerKeyHash="9b9d76b235eae01d6a6e8456311b7409d36d3302" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VgABfyqaj5GE5oHxn62nxweGHotLwUyKCLxiHb7GUKo=</DigestValue></Reference></SignedInfo><SignatureValue>Etbenz1+R/JYHD6Q8fiTWEZLEY9KNFvh0nfOD6AFlGX5FwCDofR050YcuqZN8p5rDhXkFScdZkbkGAmUt62SMXyrEATS1BZcJFVuYdTnA81fOMie1rCkJKg/DFl73AvWBRI+7VQU8aT49T1//NxCVk04ciR6Zvxyym8dv7dI9UU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>9f0CKl6UssfCV9Gai0Obx8GYNkQ3BkbF6jPUcsju5ZLdkGH+2Jp4dBurZVBofPmUymQBwNCZsf/TlI/AncgxpdgwT2umsWCRvGppt2CFIPniH86Q0HSoLIJvJWJ/bA4Wph0csQ1E+erWQKUjnW0DHduS/hZXwP043wCybNNb98U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aa50c6be1d62bc088a4cc14b8b1e8607c7a7ad9ff181e684918f9a2a7f010056" Description="" Url=""><as:assemblyIdentity name="Image sharing scheme.exe" version="1.0.0.0" publicKeyToken="ca209e4615f8515c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DELL-INSPIRON53\fazal</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hwrk1/aBeR41ROsqQFD66w7Mj6KD6nhioyN3HzV1Mvs=</DigestValue></Reference></SignedInfo><SignatureValue>PRPmcGfpUS25ZDerQrBXrXfk+tprnud5zoki+z7AGNEtNjoDW0o6y6WsI9DWpXGdm1vkt4Egd0RO2QwegW/l/4TrXEaWEOuCD1HkysJwCirjZ0DS6hMSYyDCFuXJ3i8DGuCViArggohPMLN0XmjWqxueygkpLNsBj0mltBTzPFY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>9f0CKl6UssfCV9Gai0Obx8GYNkQ3BkbF6jPUcsju5ZLdkGH+2Jp4dBurZVBofPmUymQBwNCZsf/TlI/AncgxpdgwT2umsWCRvGppt2CFIPniH86Q0HSoLIJvJWJ/bA4Wph0csQ1E+erWQKUjnW0DHduS/hZXwP043wCybNNb98U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQT4rlo1s2/IxBRSeh/ayoszANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAEwATAAtAEkATgBTAFAASQBSAE8ATgA1ADMAXABmAGEAegBhAGwwHhcNMjMwNzI0MDczMjM5WhcNMjQwNzIzMTMzMjM5WjA1MTMwMQYDVQQDHioARABFAEwATAAtAEkATgBTAFAASQBSAE8ATgA1ADMAXABmAGEAegBhAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPX9AipelLLHwlfRmotDm8fBmDZENwZGxeoz1HLI7uWS3ZBh/tiaeHQbq2VQaHz5lMpkAcDQmbH/05SPwJ3IMaXYME9rprFgkbxqabdghSD54h/OkNB0qCyCbyVif2wOFqYdHLENRPnq1kClI51tAx3bkv4WV8D9ON8AsmzTW/fFAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAkTS/ocW2k4ZqrAfaZwSz3Wsn8Zukj2kCT8z9vI1sYQgkOpmmLttxCoS+XRM6Fd/esA1BUuEpwGU0b8D12E5oCkEM5jniQ0eM6MXfOGlBvANwoMFGt0E5tHxLKUUBDahCCd1kkfgWvajTmQPKmVu23hAa7G+u1fwM38fYnPWUrO4=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
